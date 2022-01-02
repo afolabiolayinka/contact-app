@@ -56,26 +56,26 @@
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <div class="input-group">
-                                <input type="text" class="form-control @error('last_name') is-invalid @enderror" placeholder="Last name" id="last_name" name="last_name" value="{{ old('last_name') }}" required autocomplete="last_name" autofocus>
+                                <input type="text" class="form-control @error('lastName') is-invalid @enderror" placeholder="Last name" id="lastName" name="lastName" value="{{ old('lastName') }}" required autocomplete="lastName" autofocus>
                                 <div class="input-group-append">
                                     <div class="input-group-text">
                                         <span class="fas fa-user"></span>
                                     </div>
                                 </div>
-                                @error('last_name')
+                                @error('lastName')
                                 <div class="invalid-feedback">{{ $message }}</div>
                                 @enderror
                             </div>
                         </div>
                         <div class="form-group col-md-6">
                             <div class="input-group">
-                                <input type="text" class="form-control @error('first_name') is-invalid @enderror" placeholder="First name" id="first_name" name="first_name" value="{{ old('first_name') }}" required autocomplete="first_name" autofocus>
+                                <input type="text" class="form-control @error('firstName') is-invalid @enderror" placeholder="First name" id="firstName" name="firstName" value="{{ old('firstName') }}" required autocomplete="firstName" autofocus>
                                 <div class="input-group-append">
                                     <div class="input-group-text">
                                         <span class="fas fa-user"></span>
                                     </div>
                                 </div>
-                                @error('first_name')
+                                @error('firstName')
                                 <div class="invalid-feedback">{{ $message }}</div>
                                 @enderror
                             </div>
